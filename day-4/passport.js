@@ -50,9 +50,7 @@ lineReader.on("close", () => {
         valid = false;
       if (pid.length !== 9) valid = false;
 
-      if (valid) {
-        sum++;
-      }
+      if (valid) sum++;
     }
   });
   console.log(sum);
