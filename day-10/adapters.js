@@ -25,6 +25,8 @@ const findJumps = (array) => {
   return ones * threes;
 };
 
+// Room for part 2
+
 lineReader.on("close", () => {
   console.log(findJumps(adapters));
 });
